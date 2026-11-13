@@ -4,7 +4,7 @@ features, mean, std = m["features"], m["mean"], m["std"]
 coef, icpt = m["coef"], m["intercept"]
 mt = m["metrics"]
 acc, auc, base = mt["cv_accuracy"], mt["auc"], mt["baseline_accuracy"]
-DOMAIN = "cricwin.vercel.app"
+DOMAIN = "cricwin-one.vercel.app"
 JS_MODEL = f"""const MEAN = {json.dumps(mean)};
 const STD = {json.dumps(std)};
 const COEF = {json.dumps(coef)};

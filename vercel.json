@@ -28,7 +28,7 @@
     },
     {
      "key": "Access-Control-Allow-Origin",
-     "value": "https://cricwin.vercel.app"
+     "value": "https://cricwin-one.vercel.app"
     },
     {
      "key": "Content-Security-Policy",
